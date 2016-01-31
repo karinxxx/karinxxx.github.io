@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*スマホサイト（７６８px以下）のcss*/
 /* common ---------------------- */
 body{
 	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
@@ -16,13 +17,31 @@ a:hover{
 }
 
 #wrapper{
-	width:950px;
-	margin: 40px auto 0;
+	width:100%;
+	margin: 20px 0;
+	background-color: #FF0000;
 }
 
+.inner{
+	padding: 0 10px;
+}
+
+
+@media screen and (min-width:768px){
+/*PCサイト（７６９px以上）のcss*/
+	#wrapper{
+		width:950px;
+		margin: 40px auto 0;
+		background-color: #0000FF;
+	}
+
+	.inner{
+		padding: 0;
+	}
+}
 /* header ------------------------*/
 header{
-	width:950px;
+	width:100%;
 	height:80px;
 	position:relative;
 }
@@ -41,35 +60,77 @@ header p{
 	top:0;
 }
 
+nav ul{
+	width: 100%;
+	border-top: 1px #000000 solid;
+nav li{
+	width: 100%;
+	border-bottom: 1px #000000 solid;
+}
+nav li a:link:link, nav li a:visited{
+	color: #000000;
+	text-decoration: none;
+	width: 100%px;
+	display: block;
+	padding: 15px 0;
+	font-size: 16px;
+	font-family: Arial, Helvetica,sans-serif;
 
+}
+
+@media screen and (min-width:768px){
+/*PCサイト（７６９px以上）のcss*/
 /* nav -------------------------*/
-nav ul li{
-	width:150px;
-	float:left;
-	border-bottom:1px #000 solid;
-	padding-bottom:5px;
-	margin-bottom:30px;
-	margin-right:10px;
+	nav ul{
+		border-top: none;
+	}
+	nav ul li{
+		width:150px;
+		float:left;
+		border-bottom:1px #000 solid;
+		padding-bottom:5px;
+		margin-bottom:30px;
+		margin-right:10px;
+	}
+	nav ul li:last-child{
+		margin-right:0;
+	}
+	nav ul li a{
+		color:#000;
+		text-decoration:none;
+		width:150px;
+		display:block;
+		font-family:Arial, Helvetica, sans-serif;
+	}
 }
-nav ul li:last-child{
-	margin-right:0;
-}
-nav ul li a{
-	color:#000;
-	text-decoration:none;
-	width:150px;
-	display:block;
-	font-family:Arial, Helvetica, sans-serif;
-}
-
 /* mainVisual -------------------------*/
 #mainVisual{
 	margin-bottom:40px;
+	width: 100%;
 }
+#mainVisual img{
+	width: 100%;
+	max-width: 100%;
+}
+
+@media screen and (min-width:768px){
+
+	#mainVisual{
+		margin-bottom:950px;
+		width: 40px;
+	}
+	#mainVisual img{
+		width: 950px;
+	}
+}
+
 
 /* container --------------------------*/
 #container{
 	overflow: hidden;
+	width: 100%;
+	padding: 0 10px;
+	box-sizing:
 }
 
 /* container common */
@@ -85,6 +146,28 @@ nav ul li a{
 	margin:10px 0;
 	text-align:right;
 }
+
+
+@media screen and (min-width:768px){
+	#container{
+		overflow: hidden;
+	}
+
+	/* container common */
+	#whatsNew h2,
+	#about h2,
+	#todaysMenu h2{
+		border-bottom:1px #000 solid;
+		padding-bottom:5px;
+		margin-bottom:10px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	.moreLink{
+		margin:10px 0;
+		text-align:right;
+	}
+}
+
 
 /*whatsNew*/
 #whatsNew{
@@ -104,33 +187,67 @@ nav ul li a{
 	border-bottom:none;
 }
 
+@media screen and (min-width:768px){
+	#whatsNew{
+		width:310px;
+		float:left;
+	}
+}
+
+
 /*about*/
 #about{
-	width:310px;
-	float:left;
-	margin:0 10px;
+	width:100%;
+	margin:0;
 }
 #about img{
-	width:310px;
+	width:100%;
+	max-width:  100%;
+	height: auto;
 }
+
+
+@media screen and (min-width:768px){
+	#about{
+		width:310px;
+		float:left;
+		margin:0 10px;
+	}
+	#about img{
+		width:310px;
+	}
+}
+
 
 /*todaysMenu*/
 #todaysMenu{
-	width:310px;
-	float:right;
+	width:100%;
+
 }
 #menu01{
-	width:150px;
-	float:left;
+	width:100%;
 }
 
 #menu02{
-	width:150px;
-	float:right;
+	width:100%;
 }
 
 
+@media screen and (min-width:768px){
+	#todaysMenu{
+		width:310px;
+		float:right;
+	}
+	#menu01{
+		width:150px;
+		float:left;
+	}
 
+	#menu02{
+		width:150px;
+		float:right;
+	}
+}
 /* footer --------------------------*/
 footer{
 	margin:40px 0;
@@ -142,4 +259,11 @@ footer p{
 	font-size:10px;
 	color:#666666;
 	font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:768px){
+
+	footer p{
+		text-align:right;
+	}
 }
