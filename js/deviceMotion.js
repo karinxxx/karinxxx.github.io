@@ -11,6 +11,12 @@ function shakeDevice(evt){
     $('#device li').eq(0).text('加速度x: ' + x);
     $('#device li').eq(1).text('加速度x: ' + y);
     $('#device li').eq(2).text('加速度x: ' + z);
+    if(Math.abs(x) > 15 || Math.abs(y) > 15 ||Math.abs(z)){
+        $('#result').text('振ったよ');
+    }
+
+
+
 
 }
 
