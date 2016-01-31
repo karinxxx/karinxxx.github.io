@@ -15,9 +15,22 @@ function shakeDevice(evt){
         $('#result').text('振ったよ');
     }
 
+}
+
+});
 
 
+    //傾き　ジャイロセンサー
+    window.addEventListener('deviceorientation',shakeDevice);
 
+    function roteDevice(evt){
+        var x = evt.beta;
+        var y = evt.gamma;
+        var z = evt.alpha;
+
+        $('#device li').eq(0).text('傾き x: ' + x);
+        $('#device li').eq(1).text('傾き y: ' + y);
+        $('#device li').eq(2).text('傾き z: ' + z);
 }
 
 });
