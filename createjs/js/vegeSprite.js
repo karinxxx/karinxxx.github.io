@@ -7,11 +7,11 @@ var vitaminCSprite = {
     }
 }
 
-var calciumSprite = {
-    images: ['img/calcium.png'],
+var ironSprite = {
+    images: ['img/iron.png'],
     frames:{width:160,height:160},
     animations:{
-        stand:50,
+        stand:34,
         walk:[0,33]
     }
 }
