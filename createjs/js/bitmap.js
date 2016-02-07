@@ -6,8 +6,6 @@ var manifest = [
 ];
 
 
-
-
 //DOMを読み込んだら
 $(function(){
 
@@ -20,7 +18,7 @@ $(function(){
 
     loadQueue.addEventListener('complete',function(){
         console.log('読み込み完了！！！');
-    showVege();
+        showVege();
     });
 
     function showVege(){
