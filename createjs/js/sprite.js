@@ -50,7 +50,7 @@ $(function(){
         iron.y = 480;
         iron.alpha = 0;
 
-        createjs.Tween.get(iron).to({alpha:1},500).wait(1000).call(ironWalk).to({x:500},4000).call(ironStand);
+        createjs.Tween.get(iron).to({alpha:1},500).wait(1000).call(ironWalk).to({x:800},4000).call(ironStand);
 
             //ironが歩く
         function ironWalk(){
