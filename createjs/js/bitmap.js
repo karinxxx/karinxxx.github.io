@@ -28,6 +28,12 @@ $(function(){
         tomato.x = 100;
         tomato.y = 100;
         stage.addChild(tomato);
+
+        var pumpkin= new createjs.Bitmap(manifest[1].src):
+        pumpkin.x = 100;
+        pumpkin.y = 100;
+        stage.addChild(pumpkin);
+
         stage.update();
 
     };
