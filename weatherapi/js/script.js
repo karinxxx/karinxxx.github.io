@@ -21,5 +21,20 @@ $(function(){
         }).fail(function(){
             console.log('ajax error!!!');
         });
+
+        //htmlに表示する関数
+        function showWether(date){
+            console.log(date);
+
+            //地域名
+            var areaName = date.name;
+            $('#areaName').text(areaName);
+
+        }
+
+
+
+
+
     });
 });
