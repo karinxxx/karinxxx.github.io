@@ -52,6 +52,18 @@ $(function(){
     iron.y = 480;
     iron.alpha = 0;
 
+    createjs.Tween.get(iron).to({alpha:1},500).wait(1000).call(ironWalk).to({x:500},4000).call(ironStand);
+        stage.update();
+
+        //ironが歩く
+    function ironWalk(){
+        iron.gotoAndPlay('walk');
+    }
+    //iron止まる
+    function ironStand(){
+        iron.gotoAndPlay('stand');
+
+
     };
 
 
