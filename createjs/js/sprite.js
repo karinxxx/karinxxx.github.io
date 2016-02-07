@@ -45,7 +45,7 @@ $(function(){
 
     }
 
-    var vcSprite = new createjs.Spritesheet(ironSprite);
+    var vcSprite = new createjs.SpriteSheet(ironSprite);
     var iron = new createjs.Sprite(vsSprite,'stand');
     stage.addChld(iron);
     iron.x = 150;
