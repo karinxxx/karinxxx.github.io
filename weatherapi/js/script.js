@@ -1,6 +1,6 @@
 $(function(){
     //GPS
-    navigator.gelocation.getCurrentPosition(pos){
+    navigator.geolocation.getCurrentPosition(pos){
         var lat = pos.coords.latitude;
         var lon = pos.coords.longitude;
 
