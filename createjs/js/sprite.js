@@ -43,10 +43,11 @@ $(function(){
             vitaminC.gotoAndPlay('stand');
         }
 
+        //ironのスプライトシートの設定
         var vcSprite = new createjs.SpriteSheet(ironSprite);
         var iron = new createjs.Sprite(vcSprite,'stand');
         stage.addChild(iron);
-        iron.x = 250;
+        iron.x = 300;
         iron.y = 480;
         iron.alpha = 0;
 
