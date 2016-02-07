@@ -16,20 +16,23 @@ $(function(){
             dateType:'json'
         }).done(function(date){
 
-            console.log(date);
+            showWeather(date);
 
         }).fail(function(){
             console.log('ajax error!!!');
         });
 
         //htmlに表示する関数
-        function showWether(date){
+        function showWeather(date){
             console.log(date);
 
             //地域名
             var areaName = date.name;
             $('#areaName').text(areaName);
 
+            var areaTemp = date.main.temp;
+            areaTemp = areaTemp - 273.15;
+            $('#areaTemp').text(Math.round(areaTemp) + '度');
         }
 
 
