@@ -21,6 +21,10 @@ $(function(){
         showVege();
     });
 
+    loadQueue.addEventListener('progress',function(evt){
+        console.log(evt.progress);//読み込み状況０〜１
+    });
+
     function showVege(){
         var tomato = new createjs.Bitmap(manifest[0].src);
         tomato.x = 100;
@@ -28,13 +32,13 @@ $(function(){
         stage.addChild(tomato);
 
         var pumpkin= new createjs.Bitmap(manifest[1].src);
-        pumpkin.x = 100;
-        pumpkin.y = 100;
+        pumpkin.x = 200;
+        pumpkin.y = 200;
         stage.addChild(pumpkin);
 
         var hourensou= new createjs.Bitmap(manifest[2].src);
-        hourensou.x = 100;
-        hourensou.y = 100;
+        hourensou.x = 300;
+        hourensou.y = 300;
         stage.addChild(hourensou);
 
 
