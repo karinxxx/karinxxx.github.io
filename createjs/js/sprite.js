@@ -21,33 +21,21 @@ $(function(){
         showVege();
     });
 
-    loadQueue.addEventListener('progress',function(evt){
-        console.log(evt.progress);//読み込み状況０〜１
-    });
 
     function showVege(){
-        var tomato = new createjs.Bitmap(manifest[0].src);
-        tomato.x = 100;
-        tomato.y = 100;
-        stage.addChild(tomato);
-
-        var pumpkin= new createjs.Bitmap(manifest[1].src);
-        pumpkin.x = 200;
-        pumpkin.y = 200;
-        stage.addChild(pumpkin);
-
-        var hourensou= new createjs.Bitmap(manifest[2].src);
-        hourensou.x = 400;
-        hourensou.y = 400;
-        stage.addChild(hourensou);
-
-
+    //スプライトシートの設定
+    var vcSprite = new createjs.SpriteSheet(vitaminCSprite);
+    //スプライトの設定
+    var vcSprite = new createjs.Sprite(vcSprite,'stand');
+    stage.addChild(vitaminC);
+    vitaminC.x = 150;
+    vitaminC.y = 480;
+    vitaminC.alpha = 0;
+    //アニメーション
+    createjs.Tween.get(vitaminC).to({alpha:1},500).wait(1000).to({x:500},4000);
         stage.update();
 
     };
-
-
-
 
 
 
