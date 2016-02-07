@@ -22,12 +22,12 @@ $(function(){
     });
 
     function showVege(){
-        var tomato = new createjs.Bitmap(manifest[0].src):
+        var tomato = new createjs.Bitmap(manifest[0].src);
         tomato.x = 100;
         tomato.y = 100;
         stage.addChild(tomato);
 
-        var pumpkin= new createjs.Bitmap(manifest[1].src):
+        var pumpkin= new createjs.Bitmap(manifest[1].src);
         pumpkin.x = 100;
         pumpkin.y = 100;
         stage.addChild(pumpkin);
