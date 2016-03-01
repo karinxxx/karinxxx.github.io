@@ -1,0 +1,19 @@
+body{
+    color: #666666;
+}
+
+img{
+    width: 100%;
+    line-height: 0;
+}
+#wrapper {
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+}
+
+header img{
+    margin: auto;
+}
