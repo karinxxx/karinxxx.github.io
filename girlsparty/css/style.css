@@ -1,6 +1,6 @@
 body{
     color: #666666;
-    font-family: ヒラギノ角ゴ Pro W3;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
     background-image: url(../img/background.png);
     background-repeat: repeat-y;
     background-size:375px 667px;
@@ -18,6 +18,7 @@ img{
 header{
     width: 100%;
     border-bottom: 1px #cccccc solid;
+    height: 45px;
 }
 
 header img{
@@ -76,7 +77,7 @@ nav{
     margin: 0 10px;
     font-size: 14px;
     color: #ffffff;
-    font-family: ヒラギノ角ゴ Pro W6;
+    font-weight: bold;
     position: absolute;
     bottom: 75px;
 }
