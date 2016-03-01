@@ -1,5 +1,6 @@
 body{
     color: #666666;
+    font-family: ヒラギノ角ゴ Pro W3;
     background-image: url(../img/background.png);
     background-repeat: repeat-y;
     background-size:375px 667px;
@@ -75,6 +76,7 @@ nav{
     margin: 0 10px;
     font-size: 14px;
     color: #ffffff;
+    font-family: ヒラギノ角ゴ Pro W6;
     position: absolute;
     bottom: 75px;
 }
