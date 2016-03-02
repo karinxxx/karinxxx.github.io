@@ -1,20 +1,40 @@
 body{
     color: #666666;
-    font-family: ヒラギノ角ゴ Pro W3;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
 }
 
 img{
     width: 100%;
     line-height: 0;
 }
+
 #wrapper {
     width: 100%;
 }
+
 header{
     width: 100%;
     border-bottom: 1px #cccccc solid;
+    height: 45px;
 }
 
 header img{
     margin: auto;
+}
+
+#main{
+
+}
+
+.mainVisual{
+    width: 95%;
+    padding: 0 10px 0;
+
+}
+
+.contentTitle{
+    width: 95%;
+    padding: 25px 10px 10px;
+
+
 }
