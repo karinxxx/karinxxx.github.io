@@ -125,7 +125,19 @@ header img{
     margin: 10px auto 0;
 }
 
+#contents1{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto auto;
+}
+
+#contents1 h2{
+    font-size: 14px;
+    font-weight: bold;
+    color: 292929;
+    margin-top: 38px;
+}
 .border2{
     border-bottom: 1px #999999 solid;
-    margin: 100px auto 0;
+    margin: 10px auto 0;
 }
