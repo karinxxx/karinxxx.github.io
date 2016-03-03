@@ -108,6 +108,7 @@ header img{
     height: 50px;
     float: left;
     margin: 10px auto 0;
+
 }
 
 .goodUsagi{
@@ -140,4 +141,11 @@ header img{
 .border2{
     border-bottom: 1px #999999 solid;
     margin: 10px auto 0;
+}
+
+.frenchPh{
+width: 172.5px;
+height: 135px;
+margin-top: 12px;
+
 }
