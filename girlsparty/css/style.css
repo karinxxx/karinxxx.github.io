@@ -22,6 +22,7 @@ header{
 }
 
 header img{
+    width: 100%;
     margin: auto;
 }
 nav{
@@ -71,9 +72,12 @@ nav{
     overflow: hidden;
     position: relative;
 }
+
+
 .contentTitle{
     width: 95%;
     margin: 0 10px;
+
     font-size: 14px;
     color: #ffffff;
     font-weight: bold;
