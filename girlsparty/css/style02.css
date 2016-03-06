@@ -126,12 +126,6 @@ header img{
     margin: 10px auto 0;
 }
 
-#contents1{
-    width: 95%;
-    background-color: #ffffff;
-    margin: 0 auto auto;
-}
-
 #contents1 h2{
     font-size: 15px;
     font-weight: bold;
@@ -143,9 +137,60 @@ header img{
     margin: 10px auto 0;
 }
 
+#contents1{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto auto;
+    overflow: hidden;
+}
+
+#recommended1{
+    width: 45%;
+    margin: 0 auto 0;
+    float: left;
+}
+
+#recommended2{
+    width: 45%;
+    margin: 0 auto 0;
+    float: right;
+}
+
 .frenchPh{
 width: 172.5px;
 height: 135px;
 margin-top: 12px;
+}
 
+.french{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 auto 5px;
+}
+
+.frenchText{
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.5;
+}
+
+.pokePh{
+width: 172.5px;
+height: 135px;
+margin-top: 12px;
+}
+
+.poke{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 auto 5px;
+
+}
+
+.pokeText{
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.5;
 }
