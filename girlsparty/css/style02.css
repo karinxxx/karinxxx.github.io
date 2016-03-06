@@ -336,18 +336,38 @@ margin-top: 12px;
     float: left;
     margin: 10px auto 0;
 }
+
+#shopDescription{
+    width: 750px;
+    overflow: hidden;
+}
 .boxTitle{
+    width: 750px;
     background-color: #292929;
     font-size: 14px;
     font-weight: bold;
     color: #ffffff;
-    padding: 15 auto;
+    padding: 10px;
     border: 1px solid #666;
+    margin-top: 33px;
     clear: both;
 }
 
 .box1{
+    width: 94px;
     background-color: #cccccc;
     font-size: 14px;
-    color: #ffffff;
+    padding: 10px;
+    color: #292929;
+    text-align: left;
+    float: left;
+}
+
+.box2{
+    width: 616px;
+    background-color: #ffffff;
+    font-size: 14px;
+    padding: 10px;
+    color: #292929;
+    float: right;
 }
