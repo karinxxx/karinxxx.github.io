@@ -345,6 +345,7 @@ margin-top: 12px;
 
 #shopDescription table{
     width: 100%;
+    margin-top: 33px;
     overflow: hidden;
 }
 
@@ -359,6 +360,7 @@ margin-top: 12px;
 .example th{
     width: 30%;
     background-color: #cccccc;
+    color: #292929;
     padding: 0 10px;
     text-align: left;
     padding: 10px;
@@ -367,6 +369,7 @@ margin-top: 12px;
 .example td{
     width: 70%;
     background-color: #ffffff;
+    color: #292929;
     padding: 10px;
     text-align: left;
     padding: 10px;
