@@ -140,7 +140,7 @@ header img{
 #contents1{
     width: 95%;
     background-color: #ffffff;
-    margin: 0 auto auto;
+    margin: 0 auto 0;
     overflow: hidden;
 }
 
@@ -173,6 +173,8 @@ margin-top: 12px;
     font-size: 12px;
     color: #999999;
     line-height: 1.5;
+    margin-bottom: 24px;
+
 }
 
 .pokePh{
@@ -193,4 +195,27 @@ margin-top: 12px;
     font-size: 12px;
     color: #999999;
     line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+#menueMore{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto 0;
+    clear: both;
+}
+
+
+.borderMore{
+    color: 999999;
+    border-bottom: 1px #cccccc solid;
+    margin: 0 auto 0;
+}
+
+.more{
+    font-size: 12px;
+    color: #cccccc;
+    text-align: center;
+    margin: 15px auto;
+
 }
