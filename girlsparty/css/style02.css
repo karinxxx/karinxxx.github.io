@@ -145,13 +145,13 @@ header img{
 }
 
 #recommended1{
-    width: 45%;
+    width: 170px;
     margin: 0 auto 0;
     float: left;
 }
 
 #recommended2{
-    width: 45%;
+    width: 170px;
     margin: 0 auto 0;
     float: right;
 }
@@ -338,38 +338,36 @@ margin-top: 12px;
 }
 
 #shopDescription{
-    width: 750px;
+    width: 100%;
     overflow: hidden;
 }
-.boxTitle{
+
+
+#shopDescription table{
+    width: 100%;
+    overflow: hidden;
+}
+
+.example caption{
     width: 100%;
     background-color: #292929;
-    font-size: 14px;
-    font-weight: bold;
     color: #ffffff;
-    padding: 10px;
-    border: 1px solid #666;
-    margin-top: 33px;
-    clear: both;
-}
-
-.box1{
-    width: 13%;
-    background-color: #cccccc;
-    font-size: 14px;
-    padding: 10px;
-    color: #292929;
     text-align: left;
-    float: left;
-    margin: 0 auto;
+    padding: 10px;
 }
 
-.box2{
-    width: 81%;
-    background-color: #ffffff;
-    font-size: 14px;
+.example th{
+    width: 30%;
+    background-color: #cccccc;
+    padding: 0 10px;
+    text-align: left;
     padding: 10px;
-    color: #292929;
-    float: right;
-    margin: 0 auto;
+}
+
+.example td{
+    width: 70%;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    padding: 10px;
 }
