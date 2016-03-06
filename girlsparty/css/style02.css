@@ -342,7 +342,7 @@ margin-top: 12px;
     overflow: hidden;
 }
 .boxTitle{
-    width: 750px;
+    width: 100%;
     background-color: #292929;
     font-size: 14px;
     font-weight: bold;
@@ -354,7 +354,7 @@ margin-top: 12px;
 }
 
 .box1{
-    width: 94px;
+    width: 13%;
     background-color: #cccccc;
     font-size: 14px;
     padding: 10px;
@@ -365,7 +365,7 @@ margin-top: 12px;
 }
 
 .box2{
-    width: 616px;
+    width: 81%;
     background-color: #ffffff;
     font-size: 14px;
     padding: 10px;
