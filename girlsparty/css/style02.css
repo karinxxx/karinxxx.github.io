@@ -281,6 +281,21 @@ margin-top: 12px;
     margin: 10px auto 15px;
 }
 
+.kanpaiPh{
+    width: 172.5px;
+    height: 135px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.storePh{
+    width: 172.5px;
+    height: 135px;
+    float: right;
+    margin-top: 20px;
+}
+
 #contents3{
     width: 95%;
     background-color: #ffffff;
