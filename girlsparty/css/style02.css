@@ -361,6 +361,7 @@ margin-top: 12px;
     color: #292929;
     text-align: left;
     float: left;
+    margin: 0 auto;
 }
 
 .box2{
@@ -370,4 +371,5 @@ margin-top: 12px;
     padding: 10px;
     color: #292929;
     float: right;
+    margin: 0 auto;
 }
