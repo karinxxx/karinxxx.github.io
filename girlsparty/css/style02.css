@@ -214,8 +214,81 @@ margin-top: 12px;
 
 .more{
     font-size: 12px;
-    color: #cccccc;
+    color: #999999;
     text-align: center;
     margin: 15px auto;
+}
 
+#contents2{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 32px auto 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#contents2 h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: 292929;
+}
+
+.mePh{
+    width: 44.5px;
+    height: 42.5px;
+    margin: 6px auto 10px;
+    float: left;
+}
+
+#contents2 h3{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 22.5px auto 0;
+    float: left;
+}
+
+#contents2 p{
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.5;
+    clear: both;
+}
+
+.moreP{
+    font-size: 12px;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+.wafflePh{
+    width: 172.5px;
+    height: 135px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+.appearancePh{
+    width: 172.5px;
+    height: 135px;
+    float: right;
+    margin-top: 20px;
+}
+
+.love{
+    width: 13px;
+    height: 12px;
+    margin: 10px auto 15px;
+}
+
+#contents3{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 33px auto 0;
+}
+
+#contents3 h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: 292929;
 }
