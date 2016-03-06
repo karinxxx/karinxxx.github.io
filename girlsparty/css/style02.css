@@ -307,3 +307,29 @@ margin-top: 12px;
     font-weight: bold;
     color: 292929;
 }
+
+#valueFilter2{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 33px auto 0;
+}
+
+.excellentUsagiCount{
+    width: 116px;
+    height: 50px;
+    float: left;
+    margin: 10px auto 0;
+}
+.goodUsagiCount{
+    width: 116px;
+    height: 50px;
+    float:left;
+    margin: 10px 4px 0;
+}
+
+.badUsagiCount{
+    width: 116px;
+    height: 50px;
+    float: left;
+    margin: 10px auto 0;
+}
