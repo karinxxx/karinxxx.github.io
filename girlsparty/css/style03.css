@@ -1,0 +1,68 @@
+body{
+    color: #666666;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+    background-image: url(../img/background.png);
+    background-repeat: repeat-y;
+    background-size:375px 667px;
+    -webkit-background-size:375px 667px;
+    -moz-background-size:375px 667px;
+}
+
+img{
+    width: 100%;
+    line-height: 0;
+}
+#wrapper {
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    height: 45px;
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 15px;
+    color: #999999;
+    position: absolute;
+    right: 172px;
+    top: 16.25px;
+
+}
+nav{
+    width: 100%;
+    height: 49px;
+    background: url(../img/nav_bg.png) no-repeat;
+    background-size: 375px 49px;
+    -webkit-background-size:375px 49px;
+    -moz-background-size:375px 49px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+form{
+    background-color: #cccccc;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+}
+#placeholder{
+    width: 100%;
+    background: url(../img/serchmini.png) no-repeat;
+    -webkit-background-size:14.5px 14.5px;
+    -moz-background-size:14.5px 14.5px;
+    background-color: #ffffff;
+    background-position: 28% 40%;
+    box-sizing: border-box;
+    padding: 10px;
+    color:#cccccc;
+    border-radius: 5px;
+    text-align: center;
+}
