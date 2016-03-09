@@ -63,6 +63,7 @@ form{
     box-sizing: border-box;
     padding: 10px;
     color:#cccccc;
+    border-color: #cccccc;
     border-radius: 5px;
     text-align: center;
 }
