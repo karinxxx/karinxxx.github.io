@@ -1,0 +1,202 @@
+body{
+    color: #666666;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+img{
+    width: 100%;
+    line-height: 0;
+}
+#wrapper {
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    height: 45px;
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 15px;
+    color: #999999;
+    position: absolute;
+    right: 172px;
+    top: 16.25px;
+
+}
+
+#contents #more{
+        font-size: 12px;
+        color: #292929;
+        margin: 0 auto 34px;
+        text-align: right;
+}
+
+
+nav{
+    width: 100%;
+    height: 49px;
+    background: url(../img/nav_bg.png) no-repeat;
+    background-size: 375px 49px;
+    -webkit-background-size:375px 49px;
+    -moz-background-size:375px 49px;
+    position: fixed;
+    bottom: 0;
+}
+
+
+#contents{
+    width: 95%;
+    margin: 22px auto auto;
+    overflow: hidden;
+    }
+
+#lHouse{
+    width: 100%;
+    height: 116px;
+    margin: 0 auto 10px;
+    border: #cccccc solid 1px;
+    background: url(../img/lHouseIcon.png) 140px 82px no-repeat;
+    background-size: 77px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#lHouse img{
+    width: 130px;
+    height: 114px;
+    box-sizing: border-box;
+
+}
+#lHouse .icon_txt{
+    width: 100%;
+    line-height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+
+
+}
+
+#lHouse .icon_txt p span{
+    font-size: 15px;
+    font-weight: normal;
+    color: #292929;
+
+}
+
+.icon_txt p{
+    font-size: 12px;
+    color: #999999;
+}
+
+#malgoGlande{
+    width: 100%;
+    height: 116px;
+    margin: 0 auto 10px;
+    border: #cccccc solid 1px;
+    background: url(../img/malgoGlandeIcon.png) 140px 82px no-repeat;
+    background-size: 121px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#malgoGlande img{
+    width: 130px;
+    height: 114px;
+    box-sizing: border-box;
+
+}
+#malgoGlande .icon_txt{
+    width: 100%;
+    line-height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+
+
+}
+
+#malgoGlande .icon_txt p span{
+    font-size: 15px;
+    font-weight: normal;
+    color: #292929;
+
+}
+
+#seaCafe{
+    width: 100%;
+    height: 116px;
+    margin: 0 auto 10px;
+    border: #cccccc solid 1px;
+    background: url(../img/seaCafeIcon.png) 140px 82px no-repeat;
+    background-size: 113px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#seaCafe img{
+    width: 130px;
+    height: 114px;
+    box-sizing: border-box;
+
+}
+#seaCafe .icon_txt{
+    width: 100%;
+    line-height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+
+
+}
+
+#seaCafe .icon_txt p span{
+    font-size: 15px;
+    font-weight: normal;
+    color: #292929;
+
+}
+
+
+
+#flowerDining{
+    width: 100%;
+    height: 116px;
+    margin: 0 auto 10px;
+    border: #cccccc solid 1px;
+    background: url(../img/flowerDiningIcon.png) 140px 82px no-repeat;
+    background-size: 144px auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#flowerDining img{
+    width: 130px;
+    height: 114px;
+    box-sizing: border-box;
+
+}
+#flowerDining .icon_txt{
+    width: 100%;
+    line-height: 25px;
+    position: absolute;
+    top: 5px;
+    left: 140px;
+
+
+}
+
+#flowerDining .icon_txt p span{
+    font-size: 15px;
+    font-weight: normal;
+    color: #292929;
+
+}

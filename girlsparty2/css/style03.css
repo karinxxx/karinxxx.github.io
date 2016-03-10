@@ -1,0 +1,209 @@
+body{
+    color: #666666;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+img{
+    width: 100%;
+    line-height: 0;
+}
+#wrapper {
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    height: 45px;
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 15px;
+    color: #999999;
+    position: absolute;
+    right: 172px;
+    top: 16.25px;
+
+}
+
+nav{
+    width: 100%;
+    height: 49px;
+    background: url(../img/nav_bg.png) no-repeat;
+    background-size: 375px 49px;
+    -webkit-background-size:375px 49px;
+    -moz-background-size:375px 49px;
+    position: fixed;
+    bottom: 0;
+}
+
+form{
+    background-color: #cccccc;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+#placeholder{
+    width: 100%;
+    background: url(../img/serchmini.png) no-repeat;
+    -webkit-background-size:14.5px 14.5px;
+    -moz-background-size:14.5px 14.5px;
+    background-color: #ffffff;
+    background-position: 28% 40%;
+    box-sizing: border-box;
+    padding: 10px;
+    color:#cccccc;
+    border-color: #cccccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#contents{
+    width: 95%;
+    margin: 30px auto auto;
+    overflow: hidden;
+    }
+
+#geolocation{
+    width: 100%;
+    margin: 0 auto 15px;
+    border: #cccccc solid 1px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background: url(../img/geolocation.png) 70px 22px no-repeat;
+    background-size: 23px auto;
+}
+
+#geolocation .icon_txt{
+    width: 100%;
+}
+
+#geolocation .icon_txt p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    padding-left: 80px;
+}
+
+#geolocation .icon_txt p span{
+    font-size: 18px;
+    color: #999999;
+    font-weight: bold;
+}
+
+#eria{
+    width: 100%;
+    margin: 0 auto 15px;
+    border: #cccccc solid 1px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background: url(../img/tizu.png) 60px 22px no-repeat;
+    background-size: 34px auto;
+}
+
+#eria .icon_txt{
+    width: 100%;
+}
+
+#eria .icon_txt p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    padding-left: 80px;
+}
+
+#eria .icon_txt p span{
+    font-size: 18px;
+    color: #999999;
+    font-weight: bold;
+}
+
+#facility{
+    width: 100%;
+    margin: 0 auto 15px;
+    border: #cccccc solid 1px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background: url(../img/facility.png) 53px 22px no-repeat;
+    background-size: 39px auto;
+}
+
+#facility .icon_txt{
+    width: 100%;
+}
+
+#facility .icon_txt p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    padding-left: 80px;
+}
+
+#facility .icon_txt p span{
+    font-size: 18px;
+    color: #999999;
+    font-weight: bold;
+}
+
+#scene{
+    width: 100%;
+    margin: 0 auto 15px;
+    border: #cccccc solid 1px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background: url(../img/scene.png) 53px 22px no-repeat;
+    background-size: 36px auto;
+}
+
+#scene .icon_txt{
+    width: 100%;
+}
+
+#scene .icon_txt p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    padding-left: 80px;
+}
+
+#scene .icon_txt p span{
+    font-size: 18px;
+    color: #999999;
+    font-weight: bold;
+}
+
+#food{
+    width: 100%;
+    margin: 0 auto 15px;
+    border: #cccccc solid 1px;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    background: url(../img/food.png) 52px 22px no-repeat;
+    background-size: 38px auto;
+
+}
+
+#food .icon_txt{
+    width: 100%;
+
+}
+
+#food .icon_txt p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #999999;
+    padding-left: 80px;
+}
+
+#food .icon_txt p span{
+    font-size: 18px;
+    color: #999999;
+    font-weight: bold;
+}

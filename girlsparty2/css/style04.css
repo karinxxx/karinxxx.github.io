@@ -1,0 +1,77 @@
+body{
+    color: #666666;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+    background: #fff;
+}
+
+img{
+    width: 100%;
+    line-height: 0;
+}
+#wrapper {
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    height: 45px;
+    position: relative;
+}
+
+header img{
+    width: 100%;
+    margin: auto;
+}
+
+header h1{
+    font-size: 15px;
+    color: #999999;
+    position: absolute;
+    right: 130px;
+    top: 16.25px;
+
+}
+
+#contents{
+    width: 95%;
+    margin: 22px auto auto;
+    overflow: hidden;
+    }
+
+
+#contents #more{
+        font-size: 12px;
+        color: #292929;
+        margin: 0 auto 34px;
+        text-align: right;
+}
+
+.girls{
+    margin: 0 auto 5px;
+}
+
+.unique{
+    margin: 0 auto 5px;
+}
+
+.lady{
+    margin: 0 auto 5px;
+}
+
+.cute{
+    margin: 0 auto 5px;
+}
+
+.homeparty{
+    margin: 0 auto 5px;
+}
+    nav{
+        width: 100%;
+        height: 49px;
+        background: url(../img/nav_bg.png) no-repeat;
+        background-size: 375px 49px;
+        -webkit-background-size:375px 49px;
+        -moz-background-size:375px 49px;
+        position: fixed;
+        bottom: 0;
+    }

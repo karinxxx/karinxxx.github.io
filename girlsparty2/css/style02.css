@@ -1,0 +1,395 @@
+body{
+    color: #666666;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    background-repeat: repeat-y;
+    background-size:375px 667px;
+    -webkit-background-size:375px 667px;
+    -moz-background-size:375px 667px;
+
+}
+
+#wrapper {
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    height: 45px;
+}
+
+header img{
+    margin: auto;
+}
+
+nav{
+    width: 100%;
+    height: 49px;
+    background: url(../img/nav_bg.png) no-repeat;
+    background-size: 375px 49px;
+    -webkit-background-size:375px 49px;
+    -moz-background-size:375px 49px;
+    position: fixed;
+    bottom: 0;
+}
+
+#contents .shop .main{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#contents .shop .main .contentTitle{
+    width: 95%;
+    font-weight: bold;
+    font-size: 15px;
+    color: #292929;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#contents .shop #hertButton{
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    right: 10px;
+    top:210px;
+
+}
+
+#contents .shop .contentDescription{
+    width: 95%;
+    font-size: 12px;
+    color: #292929;
+    line-height: 1.5;
+    margin: 5px auto 0;
+}
+
+#contents .shop .contact{
+    margin: 10px auto 0;
+}
+
+#contents .shop .tell{
+    width: 75.5px;
+    height: 30.5px;
+}
+
+#contents .shop .map{
+    width: 192.5px;
+    height: 30.5px;
+}
+
+#contents .shop .send{
+    width: 75.5px;
+    height: 30.5px;
+}
+
+#contents .shop .underbar{
+    border-bottom: 1px #999999 solid;
+    margin: 12px auto 0;
+}
+
+#contents .shop #valueFilter{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto auto;
+    font-size: 10px;
+    margin: 20px auto 0;
+    overflow: hidden;
+}
+
+#contents .shop .doneIcon{
+    width: 10px;
+    height: 8px;
+    float: left;
+    margin-right: 5px;
+}
+
+#contents .shop .done{
+    font-weight: bold;
+    float: left;
+
+}
+#contents .shop .done2{
+    float: right;
+}
+
+#contents .shop .excellentUsagi{
+    width: 116px;
+    height: 50px;
+    float: left;
+    margin: 10px auto 0;
+
+}
+
+#contents .shop .goodUsagi{
+    width: 116px;
+    height: 50px;
+    float:left;
+    margin: 10px 4px 0;
+
+}
+
+#contents .shop .badUsagi{
+    width: 116px;
+    height: 50px;
+    float: left;
+    margin: 10px auto 0;
+}
+
+#contents .shop .contents1 h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: 292929;
+    margin-top: 38px;
+}
+#contents .shop .underbar2{
+    border-bottom: 1px #999999 solid;
+    margin: 10px auto 0;
+}
+
+#contents .shop .contents1{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto 0;
+    overflow: hidden;
+}
+
+#contents .shop .recommended1{
+    width: 170px;
+    margin: 0 auto 0;
+    float: left;
+}
+
+#contents .shop .recommended2{
+    width: 170px;
+    margin: 0 auto 0;
+    float: right;
+}
+
+#contents .shop .frenchPh{
+width: 172.5px;
+height: 135px;
+margin-top: 12px;
+}
+
+#contents .shop .french{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 0 auto 5px;
+}
+
+#contents .shop .frenchText{
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.0;
+    margin-bottom: 24px;
+
+}
+
+#contents .shop .pokePh{
+width: 172.5px;
+height: 135px;
+margin-top: 12px;
+}
+
+#contents .shop .poke{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0 auto 5px;
+
+}
+
+#contents .shop .pokeText{
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.3;
+    margin-bottom: 24px;
+}
+
+#contents .shop .menueMore{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto 0;
+    clear: both;
+}
+
+
+#contents .shop .borderMore{
+    color: 999999;
+    border-bottom: 1px #cccccc solid;
+    margin: 0 auto 0;
+}
+
+#contents .shop .more{
+    font-size: 12px;
+    color: #999999;
+    text-align: center;
+    margin: 15px auto;
+}
+
+#contents .shop .contents2{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 32px auto 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#contents .shop .contents2 h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: 292929;
+}
+
+#contents .shop .mePh{
+    width: 44.5px;
+    height: 42.5px;
+    margin: 6px auto 5px;
+    float: left;
+}
+
+#contents .shop .contents2 h3{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 22.5px auto 0;
+    float: left;
+}
+
+#contents .shop .contents2 p{
+    font-size: 12px;
+    color: #999999;
+    line-height: 1.5;
+    clear: both;
+}
+#contents .shop .underbar3{
+    border-bottom: 1px #999999 solid;
+    margin: 0px auto;
+}
+#contents .shop .moreP{
+    font-size: 12px;
+    color: #cccccc;
+    line-height: 1.5;
+}
+
+#contents .shop .wafflePh{
+    width: 172.5px;
+    height: 135px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+#contents .shop .appearancePh{
+    width: 172.5px;
+    height: 135px;
+    float: right;
+    margin-top: 20px;
+}
+
+#contents .shop .love{
+    width: 13px;
+    height: 12px;
+    margin: 10px auto 15px;
+}
+
+#contents .shop .kanpaiPh{
+    width: 172.5px;
+    height: 135px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+#contents .shop .storePh{
+    width: 172.5px;
+    height: 135px;
+    float: right;
+    margin-top: 20px;
+}
+
+#contents .shop .contents3{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 33px auto 0;
+}
+
+#contents .shop .contents3 h2{
+    font-size: 15px;
+    font-weight: bold;
+    color: 292929;
+}
+
+#contents .shop .valueFilter2{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 33px auto 0;
+}
+
+#contents .shop .excellentUsagiCount{
+    width: 116px;
+    height: 50px;
+    float: left;
+    margin: 10px auto 0;
+}
+#contents .shop .goodUsagiCount{
+    width: 116px;
+    height: 50px;
+    float:left;
+    margin: 10px 4px 0;
+}
+
+#contents .shop .badUsagiCount{
+    width: 116px;
+    height: 50px;
+    float: left;
+    margin: 10px auto 0;
+}
+
+#contents .shop #shopDescription{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+#contents .shop #shopDescription table{
+    width: 100%;
+    margin-top: 33px;
+    overflow: hidden;
+}
+
+#contents .shop #shopDescription .example caption{
+    width: 100%;
+    background-color: #292929;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+}
+
+#contents .shop #shopDescription .example th{
+    width: 30%;
+    background-color: #cccccc;
+    color: #292929;
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: left;
+    padding: 10px;
+}
+
+#contents .shop #shopDescription .example td{
+    width: 70%;
+    background-color: #ffffff;
+    color: #292929;
+    font-size: 12px;
+    padding: 10px;
+    text-align: left;
+    padding: 10px;
+}

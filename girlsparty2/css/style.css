@@ -1,0 +1,101 @@
+body{
+    color: #666666;
+    font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+    background-image: url(../img/background.png);
+    background-repeat: repeat-y;
+    background-size:375px 667px;
+    -webkit-background-size:375px 667px;
+    -moz-background-size:375px 667px;
+}
+
+img{
+    width: 100%;
+    line-height: 0;
+}
+#wrapper {
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-bottom: 1px #cccccc solid;
+    height: 45px;
+}
+
+header img{
+    width: 100%;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 49px;
+    background: url(../img/nav_bg.png) no-repeat;
+    background-size: 375px 49px;
+    -webkit-background-size:375px 49px;
+    -moz-background-size:375px 49px;
+    position: fixed;
+    bottom: 0;
+}
+
+#filterMenu{
+
+}
+
+.filterNew,.filterRank{
+    width: 50%;
+    height: 46px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 3;
+    background-color: #ffffff;
+    float: left;
+}
+
+.filterNew{
+
+}
+
+.filterRank{
+}
+
+#tabNew{
+    width: 100%;
+    clear: both;
+}
+#contents .home{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto 45px;
+    /* box-shadow */
+    box-shadow:rgba(113, 135, 164, 0.509804) 0px 4px 5px 0px;
+    -webkit-box-shadow:rgba(113, 135, 164, 0.509804) 0px 4px 5px 0px;
+    -moz-box-shadow:rgba(113, 135, 164, 0.509804) 0px 4px 5px 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+#contents .home .contentTitle{
+    width: 95%;
+    margin: 0 10px;
+
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 75px;
+}
+
+#contents .home .contentAccess,.contentDescription{
+    width: 95%;
+}
+
+#contents .home .contentAccess{
+    font-size: 9px;
+    margin: 7px auto 0;
+}
+#contents .home .contentDescription{
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 5px auto 0;
+    padding-bottom: 10px;
+}
